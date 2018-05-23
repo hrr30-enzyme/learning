@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, jsonify
 
 from surprise import Dataset, Reader, SVD
 from surprise.model_selection import cross_validate
@@ -40,7 +40,7 @@ def update_recomendations():
 
     top_n = get_top_n(predictions, n=10)
 
-    return top_n
+    return jsonify(top_n)
 
 def get_top_n(predictions, n=10):
     top_n = defaultdict(list)
