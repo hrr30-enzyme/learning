@@ -57,5 +57,5 @@ def get_top_n(predictions, n=10):
     return top_n
 
 if __name__ == '__main__':
-    app.run(debug=True, use_reloader=True)
+    app.run()
 
