@@ -1,10 +1,10 @@
-import requests
 from flask import Flask
 
 from surprise import Dataset, Reader, SVD
 from surprise.model_selection import cross_validate
 import numpy as np
 import pandas as pd
+import requests
 
 from collections import defaultdict
 
