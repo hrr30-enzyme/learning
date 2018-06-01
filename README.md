@@ -29,3 +29,7 @@ Python's ecosystem of libraries make it well suited for machine learning and dat
 
 It uses a collaborative-based machine learning algorithm called SVD and popularized by Simon Funk in his famous [Try this at home](http://sifter.org/~simon/journal/20061211.html) blog post.
 At a high-level, a collaborative-based recomendation algorithm learns what a user may like based on what other users like.  In this specific case, it is predicting what posts a user wants to interact with based on what posts similar users have interacted with.
+
+**Why Flask instead of Django?**
+
+Django is really awesome but would be overkill here.  This service serves only one function and thus a microframework like Flask is more appropriate.
