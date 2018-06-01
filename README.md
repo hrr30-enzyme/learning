@@ -1,4 +1,4 @@
-# Express.js with Babel 
+# Catalyst Flask Recomendation Service 
 
 The catalyst learning service updates the recomendations for every user every 10 minutes
 
